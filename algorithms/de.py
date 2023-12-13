@@ -1,12 +1,7 @@
 import numpy as np
 from numpy import clip
 from settings import *
-
-
-def check_bounds(mutated, bounds):
-    mutated_bound = [clip(mutated[i], bounds[i, 0], bounds[i, 1])
-                     for i in range(len(bounds))]
-    return mutated_bound
+from helpers import *
 
 
 def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], dimensions=None, repetitions=REPETITIONS):
