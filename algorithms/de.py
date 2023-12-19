@@ -21,8 +21,6 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
     best_idx = np.argmin(fitness)
     best = pop_denorm[best_idx]
 
-    output = []
-
     for i in range(repetitions):
         for j in range(population_size):
             idxs = [idx for idx in range(population_size) if idx != j]
@@ -48,10 +46,7 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
                     best_idx = j
                     best = trial_denorm
 
-        output.append(fitness[best_idx])
-        yield best, fitness[best_idx]
-
-    return output
+    return best, fitness[best_idx]
 
 
 def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], dimensions=None, repetitions=REPETITIONS):
@@ -70,8 +65,6 @@ def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], di
     fitness = np.asarray([fobj(ind) for ind in pop_denorm])
     best_idx = np.argmin(fitness)
     best = pop_denorm[best_idx]
-
-    output = []
 
     for i in range(repetitions):
         for j in range(population_size):
@@ -97,10 +90,7 @@ def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], di
                     best_idx = j
                     best = trial_denorm
 
-        output.append(fitness[best_idx])
-        yield best, fitness[best_idx]
-
-    return output
+    return best, fitness[best_idx]
 
 
 # def objective_function(x):
