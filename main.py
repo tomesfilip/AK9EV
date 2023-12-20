@@ -34,6 +34,9 @@ if __name__ == '__main__':
         randomized_term=None
     )
 
+    for fun in continous_multimodal_nonconvex_2d_functions:
+        print(fun.name)
+
     bench_functions = [
         bench.function.Ackley(DIMENSIONS),
         bench.function.HappyCat(DIMENSIONS),
@@ -51,6 +54,15 @@ if __name__ == '__main__':
         bench.function.ShubertN4(DIMENSIONS),
         bench.function.StyblinskiTank(DIMENSIONS),
         bench.function.Thevenot(DIMENSIONS),
+        bench.function.CustomFunction(DIMENSIONS),
+        bench.function.CustomFunction2(DIMENSIONS),
+        bench.function.CustomFunction3(DIMENSIONS),
+        bench.function.CustomFunction4(DIMENSIONS),
+        bench.function.CustomFunction5(DIMENSIONS),
+        bench.function.CustomFunction7(DIMENSIONS),
+        bench.function.CustomFunction8(DIMENSIONS),
+        bench.function.CustomFunction9(DIMENSIONS),
+        bench.function.CustomFunction10(DIMENSIONS),
     ]
 
     print('TOTAL FUNCTIONS:')
@@ -66,4 +78,4 @@ if __name__ == '__main__':
         for result in de_rand_1_bin(func, bounds):
             print(result)
 
-    # plot_function_2d_3d(func, INPUT_DOMAIN)
+        # plot_function_2d_3d(func, INPUT_DOMAIN)

@@ -26,7 +26,8 @@ class Thevenot:
 
     def __init__(self, d, m=5, beta=15):
         self.d = d
-        self.input_domain = np.array([[-2 * np.pi, 2 * np.pi] for _ in range(d)])
+        self.input_domain = np.array(
+            [[-2 * np.pi, 2 * np.pi] for _ in range(d)])
         self.m = m
         self.beta = beta
 
@@ -361,7 +362,8 @@ class Bartels:
 
     def __call__(self, X):
         x, y = X
-        res = np.abs(x**2 + y**2 + x * y) + np.abs(np.sin(x)) + np.abs(np.cos(y))
+        res = np.abs(x**2 + y**2 + x * y) + \
+            np.abs(np.sin(x)) + np.abs(np.cos(y))
         return res
 
 
@@ -432,7 +434,8 @@ class Bird:
 
     def __init__(self, d):
         self.d = d
-        self.input_domain = np.array([[-2 * np.pi, 2 * np.pi], [-2 * np.pi, 2 * np.pi]])
+        self.input_domain = np.array(
+            [[-2 * np.pi, 2 * np.pi], [-2 * np.pi, 2 * np.pi]])
 
     def get_param(self):
         return {}
@@ -572,7 +575,8 @@ class BohachevskyN3:
         res = (
             x**2
             + 2 * y**2
-            - 0.3 * np.cos(3 * np.pi * x + 4 * np.pi * y) * np.cos(4 * np.pi * y)
+            - 0.3 * np.cos(3 * np.pi * x + 4 * np.pi * y) *
+            np.cos(4 * np.pi * y)
             + 0.3
         )
         return res
@@ -817,7 +821,8 @@ class Colville:
 
     def __init__(self, d):
         self.d = d
-        self.input_domain = np.array([[-10, 10], [-10, 10], [-10, 10], [-10, 10]])
+        self.input_domain = np.array(
+            [[-10, 10], [-10, 10], [-10, 10], [-10, 10]])
 
     def get_param(self):
         return {}
@@ -1102,7 +1107,8 @@ class Easom:
 
     def __call__(self, X):
         x, y = X
-        res = -np.cos(x) * np.cos(y) * np.exp(-((x - np.pi) ** 2) - (y - np.pi) ** 2)
+        res = -np.cos(x) * np.cos(y) * \
+            np.exp(-((x - np.pi) ** 2) - (y - np.pi) ** 2)
         return res
 
 
@@ -1421,7 +1427,8 @@ class HappyCat:
     def __call__(self, X):
         d = X.shape[0]
         norm = np.sum(X**2)
-        res = ((norm - d) ** 2) ** self.alpha + (1 / d) * (0.5 * norm + np.sum(X)) + 0.5
+        res = ((norm - d) ** 2) ** self.alpha + \
+            (1 / d) * (0.5 * norm + np.sum(X)) + 0.5
         return res
 
 
@@ -1512,7 +1519,8 @@ class HolderTable:
     def __call__(self, X):
         x, y = X
         res = -np.abs(
-            np.sin(x) * np.cos(y) * np.exp(np.abs(1 - np.sqrt(x**2 + y**2) / np.pi))
+            np.sin(x) * np.cos(y) *
+            np.exp(np.abs(1 - np.sqrt(x**2 + y**2) / np.pi))
         )
         return res
 
@@ -1584,7 +1592,8 @@ class Langermann:
         self.m = m if m is not None else 5
         self.c = c if c is not None else np.array([1, 2, 5, 2, 3])
         self.A = (
-            A if A is not None else np.array([[3, 5], [5, 2], [2, 1], [1, 4], [7, 9]])
+            A if A is not None else np.array(
+                [[3, 5], [5, 2], [2, 1], [1, 4], [7, 9]])
         )
 
     def get_param(self):
@@ -2194,7 +2203,8 @@ class Rosenbrock:
 
     def __call__(self, X):
         res = np.sum(
-            np.abs(self.b * (X[1:] - X[:-1] ** 2) ** 2 + (self.a - X[:-1]) ** 2)
+            np.abs(self.b * (X[1:] - X[:-1] ** 2)
+                   ** 2 + (self.a - X[:-1]) ** 2)
         )
         return res
 
@@ -2695,7 +2705,8 @@ class Shekel:
 
     def __init__(self, d, m=None, C=None, beta=None):
         self.d = d
-        self.input_domain = np.array([[-10, 10], [-10, 10], [-10, 10], [-10, 10]])
+        self.input_domain = np.array(
+            [[-10, 10], [-10, 10], [-10, 10], [-10, 10]])
         self.m = m if m is not None else 10
         self.beta = (
             beta
@@ -2823,7 +2834,8 @@ class ShubertN3:
         return (X, self(X))
 
     def __call__(self, X):
-        res = np.sum(np.sum([j * np.sin((j + 1) * X + j) for j in range(1, 5 + 1)]))
+        res = np.sum(np.sum([j * np.sin((j + 1) * X + j)
+                     for j in range(1, 5 + 1)]))
         return res
 
 
@@ -2865,7 +2877,8 @@ class ShubertN4:
         return (X, self(X))
 
     def __call__(self, X):
-        res = np.sum(np.sum([j * np.cos((j + 1) * X + j) for j in range(1, 5 + 1)]))
+        res = np.sum(np.sum([j * np.cos((j + 1) * X + j)
+                     for j in range(1, 5 + 1)]))
         return res
 
 
@@ -3181,7 +3194,8 @@ class XinSheYangN2:
 
     def __init__(self, d):
         self.d = d
-        self.input_domain = np.array([[-2 * np.pi, 2 * np.pi] for _ in range(d)])
+        self.input_domain = np.array(
+            [[-2 * np.pi, 2 * np.pi] for _ in range(d)])
 
     def get_param(self):
         return {}
@@ -3220,7 +3234,8 @@ class XinSheYangN3:
 
     def __init__(self, d, m=5, beta=15):
         self.d = d
-        self.input_domain = np.array([[-2 * np.pi, 2 * np.pi] for _ in range(d)])
+        self.input_domain = np.array(
+            [[-2 * np.pi, 2 * np.pi] for _ in range(d)])
         self.m = m
         self.beta = beta
 
@@ -3315,5 +3330,266 @@ class Zakharov:
     def __call__(self, X):
         d = X.shape[0]
         i = np.arange(1, d + 1)
-        res = np.sum(X**2) + np.sum(0.5 * i * X) ** 2 + np.sum(0.5 * i * X) ** 4
+        res = np.sum(X**2) + np.sum(0.5 * i * X) ** 2 + \
+            np.sum(0.5 * i * X) ** 4
+        return res
+
+
+class CustomFunction:
+    name = "CustomFunction"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} x_i^2 - 10 \cos(2\pi\sum_{i=1}^{d} x_i) + 10"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(X**2) - 10 * np.cos(2 * np.pi * np.sum(X)) + 10
+        return res
+
+
+class CustomFunction2:
+    name = "CustomFunction2"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} \sin(x_i) + \frac{1}{2} \sum_{i=1}^{d} x_i^2"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.sin(X)) + 0.5 * np.sum(X**2)
+        return res
+
+
+class CustomFunction3:
+    name = "CustomFunction3"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} e^{-x_i^2} + \cos(2\pi \sum_{i=1}^{d} x_i) + 2"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.exp(-X**2)) + np.cos(2 * np.pi * np.sum(X)) + 2
+        return res
+
+
+class CustomFunction4:
+    name = "CustomFunction4"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} \log(1 + e^{x_i}) + \sin(3\pi \sum_{i=1}^{d} x_i)"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.log(1 + np.exp(X))) + np.sin(3 * np.pi * np.sum(X))
+        return res
+
+
+class CustomFunction5:
+    name = "CustomFunction5"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} \sin(x_i) + \cos(2\pi \sum_{i=1}^{d} x_i)"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.sin(X)) + np.cos(2 * np.pi * np.sum(X))
+        return res
+
+
+class CustomFunction6:
+    name = "CustomFunction6"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} x_i^4 - 16 \cos(\pi x_i) + 20"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(X**4) - 16 * np.cos(np.pi * X) + 20
+        return res
+
+
+class CustomFunction7:
+    name = "CustomFunction7"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} \sin^2(x_i) + \frac{1}{2} \sum_{i=1}^{d} x_i^2"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.sin(X)**2) + 0.5 * np.sum(X**2)
+        return res
+
+
+class CustomFunction8:
+    name = "CustomFunction8"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} e^{-x_i^2/2} + \sin(2\pi \sum_{i=1}^{d} x_i) + 2"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.exp(-X**2/2)) + np.sin(2 * np.pi * np.sum(X)) + 2
+        return res
+
+
+class CustomFunction9:
+    name = "CustomFunction9"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} \log(1 + e^{x_i}) - \cos(3\pi \sum_{i=1}^{d} x_i)"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.log(1 + np.exp(X))) - np.cos(3 * np.pi * np.sum(X))
+        return res
+
+
+class CustomFunction10:
+    name = "CustomFunction10"
+    latex_formula = r"f(\mathbf{x}) = \sum_{i=1}^{d} \sqrt{|x_i|} + \sin(\pi \sum_{i=1}^{d} x_i)"
+    latex_formula_dimension = r"d \in \{2, 10, 30\}"
+    latex_formula_input_domain = r"x_i \in [-5, 5], \forall i \in \llbracket 1, d\rrbracket"
+    continuous = True
+    mutimodal = True
+
+    @classmethod
+    def is_dim_compatible(cls, d):
+        return d in {2, 10, 30}
+
+    def __init__(self, d):
+        assert self.is_dim_compatible(d), "Invalid dimension for this function"
+        self.d = d
+        self.input_domain = np.array([[-5, 5] for _ in range(d)])
+
+    def get_global_minimum(self, d):
+        X = np.array([0 for _ in range(d)])
+        return (X, self(X))
+
+    def __call__(self, X):
+        res = np.sum(np.sqrt(np.abs(X))) + np.sin(np.pi * np.sum(X))
         return res
