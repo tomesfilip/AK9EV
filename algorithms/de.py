@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import clip
-from settings import *
-from helpers import *
+from .settings import *
+from .helpers import *
 
 
 def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], dimensions=None, repetitions=REPETITIONS):
