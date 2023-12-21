@@ -43,7 +43,7 @@ def save_to_json(data, filename):
 
 if __name__ == '__main__':
     INPUT_DOMAIN = ([-100, 100], [-100, 100])  # Used for plotting
-    DIMENSIONS = 2  # Could be: 2, 10, 30
+    DIMENSIONS = 30  # Could be: 2, 10, 30
     OUTPUT_FILE = 'average_results.json'
 
     results_dict = {}

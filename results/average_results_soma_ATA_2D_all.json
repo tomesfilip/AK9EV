@@ -1,0 +1,177 @@
+{
+    "SOMA_ATA_Ackley": {
+        "average_best": [
+            0.2735286105848192,
+            -0.3997413329352474
+        ],
+        "average_fitness": 5.840725726489761
+    },
+    "SOMA_ATA_Happy Cat": {
+        "average_best": [
+            -0.327296318070158,
+            -0.6951176740999876
+        ],
+        "average_fitness": 8.264590503496839
+    },
+    "SOMA_ATA_Michalewicz": {
+        "average_best": [
+            -12.442830598759276,
+            7.06819954864312
+        ],
+        "average_fitness": -1.8558629774116615
+    },
+    "SOMA_ATA_Periodic": {
+        "average_best": [
+            -8.536982858707056,
+            -10.151185425555687
+        ],
+        "average_fitness": 1.0294622866949887
+    },
+    "SOMA_ATA_Perm d, beta": {
+        "average_best": [
+            0.8233839660436445,
+            1.7190930699703098
+        ],
+        "average_fitness": 844.44576241445
+    },
+    "SOMA_ATA_Qing": {
+        "average_best": [
+            -0.5865016786328525,
+            -0.24785642212694783
+        ],
+        "average_fitness": 4733.050809024707
+    },
+    "SOMA_ATA_Quartic": {
+        "average_best": [
+            -0.00891815653272503,
+            -0.39057437626258606
+        ],
+        "average_fitness": 1235.0031574375055
+    },
+    "SOMA_ATA_Rastrigin": {
+        "average_best": [
+            -0.26799017979731965,
+            0.04825254023019833
+        ],
+        "average_fitness": 6.422679005321666
+    },
+    "SOMA_ATA_Rosenbrock": {
+        "average_best": [
+            0.05714230026782066,
+            25.196612609694945
+        ],
+        "average_fitness": 113.77450963624793
+    },
+    "SOMA_ATA_Salomon": {
+        "average_best": [
+            0.7164799542724507,
+            -1.4377064265390758
+        ],
+        "average_fitness": 0.46753379834870346
+    },
+    "SOMA_ATA_Schwefel": {
+        "average_best": [
+            65.08181899761372,
+            64.9767858702858
+        ],
+        "average_fitness": 711.9056397675871
+    },
+    "SOMA_ATA_Shubert": {
+        "average_best": [
+            9.019313604837969,
+            11.39976129837098
+        ],
+        "average_fitness": -16.73359194810091
+    },
+    "SOMA_ATA_Shubert N. 3": {
+        "average_best": [
+            4.970561818300018,
+            11.88368380582048
+        ],
+        "average_fitness": -28.238654577067596
+    },
+    "SOMA_ATA_Shubert N. 4": {
+        "average_best": [
+            4.65088819002809,
+            -0.8228065241139504
+        ],
+        "average_fitness": -24.551244572869987
+    },
+    "SOMA_ATA_Styblinski Tank": {
+        "average_best": [
+            -1.4497845313842397,
+            -2.3210742802373097
+        ],
+        "average_fitness": -46.37998083216941
+    },
+    "SOMA_ATA_Thevenot": {
+        "average_best": [
+            -1.7791193324291816,
+            -2.4480517352719766
+        ],
+        "average_fitness": -1.1270005367023441
+    },
+    "SOMA_ATA_CustomFunction": {
+        "average_best": [
+            0.5777802679497458,
+            -0.15486140117015426
+        ],
+        "average_fitness": 14.497559675793868
+    },
+    "SOMA_ATA_CustomFunction2": {
+        "average_best": [
+            -0.22119988275098526,
+            -0.962101595023451
+        ],
+        "average_fitness": 2.69557312498326
+    },
+    "SOMA_ATA_CustomFunction3": {
+        "average_best": [
+            -8.968543821291428,
+            -12.231456464540056
+        ],
+        "average_fitness": 1.0000009893059212
+    },
+    "SOMA_ATA_CustomFunction4": {
+        "average_best": [
+            -52.19178538092399,
+            -49.330389959439074
+        ],
+        "average_fitness": -0.9999408122400586
+    },
+    "SOMA_ATA_CustomFunction5": {
+        "average_best": [
+            17.676544831805767,
+            -1.8087372548558809
+        ],
+        "average_fitness": -2.9573508652193943
+    },
+    "SOMA_ATA_CustomFunction7": {
+        "average_best": [
+            0.849859607157464,
+            0.9455768656210316
+        ],
+        "average_fitness": 12.22849210365842
+    },
+    "SOMA_ATA_CustomFunction8": {
+        "average_best": [
+            -5.867172183033256,
+            0.5505648242274946
+        ],
+        "average_fitness": 1.000002771253133
+    },
+    "SOMA_ATA_CustomFunction9": {
+        "average_best": [
+            -55.74148620671913,
+            -49.21416591864501
+        ],
+        "average_fitness": -0.9999804279351637
+    },
+    "SOMA_ATA_CustomFunction10": {
+        "average_best": [
+            0.07850594211697658,
+            0.2927904929512726
+        ],
+        "average_fitness": 1.020105661645402
+    }
+}
