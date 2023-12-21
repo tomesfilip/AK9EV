@@ -4,7 +4,7 @@ from .settings import *
 from .helpers import *
 
 
-def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], dimensions=None, repetitions=REPETITIONS):
+def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], dimensions=None):
     if dimensions is None:
         dimensions = len(bounds)
 
@@ -13,6 +13,7 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
 
     # Adjust population size based on dimensions
     population_size = POPULATION_SIZE[f'{dimensions}D']
+    iterations = int(FUNCTION_EVALUATIONS(dimensions) / population_size)
 
     # Initialize population
     population = np.random.rand(population_size, dimensions)
@@ -21,12 +22,12 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
     best_idx = np.argmin(fitness)
     best = pop_denorm[best_idx]
 
-    for i in range(repetitions):
+    for i in range(iterations):
         for j in range(population_size):
             idxs = [idx for idx in range(population_size) if idx != j]
             a, b, c = population[np.random.choice(idxs, 3, replace=False)]
             best_vector = population[best_idx]
-            mutant = np.clip(a + F * (b - c), 0, 1)
+            mutant = np.clip(best_vector + F * (b - c), 0, 1)
             cross_points = np.random.rand(dimensions) < cr
 
             if not np.any(cross_points):
@@ -49,7 +50,7 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
     return best, fitness[best_idx]
 
 
-def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], dimensions=None, repetitions=REPETITIONS):
+def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], dimensions=None):
     if dimensions is None:
         dimensions = len(bounds)
 
@@ -58,6 +59,7 @@ def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], di
 
     # Adjust population size based on dimensions
     population_size = POPULATION_SIZE[f'{dimensions}D']
+    iterations = int(FUNCTION_EVALUATIONS(dimensions) / population_size)
 
     # Initialize population
     population = np.random.rand(population_size, dimensions)
@@ -66,7 +68,7 @@ def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], di
     best_idx = np.argmin(fitness)
     best = pop_denorm[best_idx]
 
-    for i in range(repetitions):
+    for i in range(iterations):
         for j in range(population_size):
             idxs = [idx for idx in range(population_size) if idx != j]
             a, b, c = population[np.random.choice(idxs, 3, replace=False)]
