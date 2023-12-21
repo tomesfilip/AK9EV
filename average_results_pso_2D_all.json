@@ -1,0 +1,177 @@
+{
+    "PSO_Ackley": {
+        "average_best": [
+            4.266690545743702,
+            -3.5000000014681434
+        ],
+        "average_fitness": 0.6666671265801003
+    },
+    "PSO_Happy Cat": {
+        "average_best": [
+            -1.0021908180920278,
+            -0.9974257652210947
+        ],
+        "average_fitness": 0.00021505660537637176
+    },
+    "PSO_Michalewicz": {
+        "average_best": [
+            57.92003531469977,
+            27.26652140843846
+        ],
+        "average_fitness": -1.9197877336786127
+    },
+    "PSO_Periodic": {
+        "average_best": [
+            -16.021127253141405,
+            -27.226356050817415
+        ],
+        "average_fitness": 1.0000341577472462
+    },
+    "PSO_Perm d, beta": {
+        "average_best": [
+            1.384614936118709,
+            1.5384626324865092
+        ],
+        "average_fitness": 1.2171479163142104e-11
+    },
+    "PSO_Qing": {
+        "average_best": [
+            0.26666666649431026,
+            0.09428090425712693
+        ],
+        "average_fitness": 1.4270180195124746e-18
+    },
+    "PSO_Quartic": {
+        "average_best": [
+            0.01105167433368564,
+            0.020192356622597017
+        ],
+        "average_fitness": 0.0013010677577351944
+    },
+    "PSO_Rastrigin": {
+        "average_best": [
+            -1.789500137631819e-08,
+            -0.09949583588615181
+        ],
+        "average_fitness": 0.09949590570944337
+    },
+    "PSO_Rosenbrock": {
+        "average_best": [
+            1.1150994476653975,
+            2.433181314661829
+        ],
+        "average_fitness": 0.96214734677126
+    },
+    "PSO_Salomon": {
+        "average_best": [
+            0.010505079913952596,
+            -0.01771807579436115
+        ],
+        "average_fitness": 0.03994996541956496
+    },
+    "PSO_Schwefel": {
+        "average_best": [
+            4.306798979818127e+22,
+            8.544776220323759e+20
+        ],
+        "average_fitness": -4.356642637349493e+22
+    },
+    "PSO_Shubert": {
+        "average_best": [
+            -46.39242274183535,
+            -12.203484511071851
+        ],
+        "average_fitness": -18.054700236930575
+    },
+    "PSO_Shubert N. 3": {
+        "average_best": [
+            12.494755778973936,
+            -4.556245810464077
+        ],
+        "average_fitness": -29.673232103682306
+    },
+    "PSO_Shubert N. 4": {
+        "average_best": [
+            15.107698164368095,
+            -25.09236880378423
+        ],
+        "average_fitness": -25.67160315219804
+    },
+    "PSO_Styblinski Tank": {
+        "average_best": [
+            -2.903534028955927,
+            -2.7151894689604954
+        ],
+        "average_fitness": -77.86110743925994
+    },
+    "PSO_Thevenot": {
+        "average_best": [
+            -0.3141685656453317,
+            2.3040873136024493
+        ],
+        "average_fitness": -1.9999786427615298
+    },
+    "PSO_CustomFunction": {
+        "average_best": [
+            0.03325154902231782,
+            0.033250403140266005
+        ],
+        "average_fitness": 0.03324911074628082
+    },
+    "PSO_CustomFunction2": {
+        "average_best": [
+            -0.7390851307794807,
+            -0.7390851345842624
+        ],
+        "average_fitness": -0.8009772242267582
+    },
+    "PSO_CustomFunction3": {
+        "average_best": [
+            10.641357464385935,
+            -34.20802403138485
+        ],
+        "average_fitness": 1.0000000000008111
+    },
+    "PSO_CustomFunction4": {
+        "average_best": [
+            -103.00660242676437,
+            -123.29339852104196
+        ],
+        "average_fitness": -0.9999999970510315
+    },
+    "PSO_CustomFunction5": {
+        "average_best": [
+            -18.296155485975394,
+            -16.671463215261657
+        ],
+        "average_fitness": -2.9933671600841243
+    },
+    "PSO_CustomFunction7": {
+        "average_best": [
+            7.853823389068768e-11,
+            -7.186933300488842e-10
+        ],
+        "average_fitness": 1.0597766768367913e-19
+    },
+    "PSO_CustomFunction8": {
+        "average_best": [
+            -13.763609902639477,
+            43.14694323482594
+        ],
+        "average_fitness": 1.0000000000000009
+    },
+    "PSO_CustomFunction9": {
+        "average_best": [
+            -147.32065268626732,
+            -139.8571444594437
+        ],
+        "average_fitness": -0.9999999957973568
+    },
+    "PSO_CustomFunction10": {
+        "average_best": [
+            -0.14022157370057736,
+            -0.28058546046721866
+        ],
+        "average_fitness": -0.3205107502312068
+    }
+}
