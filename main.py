@@ -43,25 +43,22 @@ def save_to_json(data, filename):
 
 if __name__ == '__main__':
     INPUT_DOMAIN = ([-100, 100], [-100, 100])  # Used for plotting
-    DIMENSIONS = 30  # Could be: 2, 10, 30
+    DIMENSIONS = 2  # Could be: 2, 10, 30
     OUTPUT_FILE = 'average_results.json'
 
     results_dict = {}
 
     # get all the available functions accepting defined DIMENSIONS
-    any_dim_functions = bench.get_functions(None)
-    continous_multimodal_nonconvex_2d_functions = bench.get_functions(
-        d=DIMENSIONS,
-        continuous=True,
-        convex=None,
-        separable=None,
-        differentiable=None,
-        mutimodal=True,
-        randomized_term=None
-    )
-
-    for fun in continous_multimodal_nonconvex_2d_functions:
-        print(fun.name)
+    # any_dim_functions = bench.get_functions(None)
+    # continous_multimodal_nonconvex_2d_functions = bench.get_functions(
+    #     d=DIMENSIONS,
+    #     continuous=True,
+    #     convex=None,
+    #     separable=None,
+    #     differentiable=None,
+    #     mutimodal=True,
+    #     randomized_term=None
+    # )
 
     bench_functions = [
         bench.function.Ackley(DIMENSIONS),
@@ -113,19 +110,19 @@ if __name__ == '__main__':
         #     'average_fitness': float(average_result[1])
         # }
 
-        print('PSO: ' + func.name)
-        pso_avg_res = average_results(pso, func, bounds)
-        results_dict[f'PSO_{func.name}'] = {
-            'average_best': pso_avg_res[0].tolist(),
-            'average_fitness': float(pso_avg_res[1])
-        }
-
-        # print('SOMA AT1: ' + func.name)
-        # soma_at1_avg_res = average_results(soma_all_to_one, func, bounds)
-        # results_dict[f'SOMA_AT1_{func.name}'] = {
-        #     'average_best': soma_at1_avg_res[0].tolist(),
-        #     'average_fitness': float(soma_at1_avg_res[1])
+        # print('PSO: ' + func.name)
+        # pso_avg_res = average_results(pso, func, bounds)
+        # results_dict[f'PSO_{func.name}'] = {
+        #     'average_best': pso_avg_res[0].tolist(),
+        #     'average_fitness': float(pso_avg_res[1])
         # }
+
+        print('SOMA AT1: ' + func.name)
+        soma_at1_avg_res = average_results(soma_all_to_one, func, bounds)
+        results_dict[f'SOMA_AT1_{func.name}'] = {
+            'average_best': soma_at1_avg_res[0].tolist(),
+            'average_fitness': float(soma_at1_avg_res[1])
+        }
 
         # print('SOMA ATA: ' + func.name)
         # soma_ata_avg_res = average_results(soma_all_to_all, func, bounds)

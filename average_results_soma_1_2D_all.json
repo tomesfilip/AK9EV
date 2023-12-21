@@ -1,0 +1,177 @@
+{
+    "SOMA_AT1_Ackley": {
+        "average_best": [
+            -5.1393241780650304e-05,
+            5.4732161225557905e-05
+        ],
+        "average_fitness": 0.0006740103413162224
+    },
+    "SOMA_AT1_Happy Cat": {
+        "average_best": [
+            -1.0230734301562254,
+            -0.9450890774434332
+        ],
+        "average_fitness": 0.017624979450109535
+    },
+    "SOMA_AT1_Michalewicz": {
+        "average_best": [
+            -6.612132372278286,
+            -8.138561447089824
+        ],
+        "average_fitness": -1.930736070120184
+    },
+    "SOMA_AT1_Periodic": {
+        "average_best": [
+            -0.21026006892832924,
+            -10.364885537635407
+        ],
+        "average_fitness": 0.9968391431672374
+    },
+    "SOMA_AT1_Perm d, beta": {
+        "average_best": [
+            1.3679175927753948,
+            1.5559752687753812
+        ],
+        "average_fitness": 0.009570765192166621
+    },
+    "SOMA_AT1_Qing": {
+        "average_best": [
+            0.13332284623871546,
+            7.379729771939125e-07
+        ],
+        "average_fitness": 3.490245226888957e-07
+    },
+    "SOMA_AT1_Quartic": {
+        "average_best": [
+            -0.01053311166091822,
+            0.006256169791468428
+        ],
+        "average_fitness": 0.0027999873510906196
+    },
+    "SOMA_AT1_Rastrigin": {
+        "average_best": [
+            0.03246394098891237,
+            0.034224123360686275
+        ],
+        "average_fitness": 0.07738686340128544
+    },
+    "SOMA_AT1_Rosenbrock": {
+        "average_best": [
+            0.914501043291679,
+            9.058727468525062
+        ],
+        "average_fitness": 9.790600274080134
+    },
+    "SOMA_AT1_Salomon": {
+        "average_best": [
+            -0.049919246091542836,
+            -0.0874008871883738
+        ],
+        "average_fitness": 0.06448884150820063
+    },
+    "SOMA_AT1_Schwefel": {
+        "average_best": [
+            65.54790679297534,
+            65.54787660932409
+        ],
+        "average_fitness": 710.695836122781
+    },
+    "SOMA_AT1_Shubert": {
+        "average_best": [
+            22.306003071480614,
+            20.47032369575072
+        ],
+        "average_fitness": -18.05276423006561
+    },
+    "SOMA_AT1_Shubert N. 3": {
+        "average_best": [
+            -8.653783947713134,
+            11.453311899108689
+        ],
+        "average_fitness": -29.64826969373306
+    },
+    "SOMA_AT1_Shubert N. 4": {
+        "average_best": [
+            8.212063552265878,
+            13.654778825829625
+        ],
+        "average_fitness": -25.69699694385181
+    },
+    "SOMA_AT1_Styblinski Tank": {
+        "average_best": [
+            -2.9003794827244262,
+            -2.715173577596543
+        ],
+        "average_fitness": -77.85602837921815
+    },
+    "SOMA_AT1_Thevenot": {
+        "average_best": [
+            -0.7363892037555896,
+            -0.016251874664700433
+        ],
+        "average_fitness": -1.9729422754179273
+    },
+    "SOMA_AT1_CustomFunction": {
+        "average_best": [
+            -0.003641875636763566,
+            0.0037983080293817998
+        ],
+        "average_fitness": 0.0039876677094871004
+    },
+    "SOMA_AT1_CustomFunction2": {
+        "average_best": [
+            -0.7390144443478166,
+            -0.7391319691957966
+        ],
+        "average_fitness": -0.8009770029578168
+    },
+    "SOMA_AT1_CustomFunction3": {
+        "average_best": [
+            -13.08404802108311,
+            23.650585753722293
+        ],
+        "average_fitness": 1.0000043394715208
+    },
+    "SOMA_AT1_CustomFunction4": {
+        "average_best": [
+            -51.383215242604955,
+            -53.91672889031763
+        ],
+        "average_fitness": -0.9999940030371717
+    },
+    "SOMA_AT1_CustomFunction5": {
+        "average_best": [
+            16.004979277298034,
+            9.960324346572117
+        ],
+        "average_fitness": -2.985801835063187
+    },
+    "SOMA_AT1_CustomFunction7": {
+        "average_best": [
+            3.131715975173873e-05,
+            1.4072580694658969e-05
+        ],
+        "average_fitness": 3.5771110898651815e-08
+    },
+    "SOMA_AT1_CustomFunction8": {
+        "average_best": [
+            -10.148494769085156,
+            -13.901528456080822
+        ],
+        "average_fitness": 1.0000020370388538
+    },
+    "SOMA_AT1_CustomFunction9": {
+        "average_best": [
+            -49.2943151075971,
+            -44.86112676279851
+        ],
+        "average_fitness": -0.9999807103438094
+    },
+    "SOMA_AT1_CustomFunction10": {
+        "average_best": [
+            -0.23909190590766458,
+            -0.11755907202188155
+        ],
+        "average_fitness": -0.2996623397596404
+    }
+}
