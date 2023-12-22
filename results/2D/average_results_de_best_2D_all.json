@@ -1,0 +1,177 @@
+{
+  "DE_BEST_Ackley": {
+    "average_best": [
+      -10.019322459356111,
+      9.469510070954424
+    ],
+    "average_fitness": 10.112197741301351
+  },
+  "DE_BEST_Happy Cat": {
+    "average_best": [
+      0.6327062104802271,
+      0.32027568342050755
+    ],
+    "average_fitness": 41.13235699081979
+  },
+  "DE_BEST_Michalewicz": {
+    "average_best": [
+      -17.737931085996696,
+      -7.532143537518132
+    ],
+    "average_fitness": -1.403232583920079
+  },
+  "DE_BEST_Periodic": {
+    "average_best": [
+      -6.199501917992571,
+      0.050359322206538576
+    ],
+    "average_fitness": 1.0334560500919696
+  },
+  "DE_BEST_Perm d, beta": {
+    "average_best": [
+      1.3555151218344814,
+      0.3312525361167237
+    ],
+    "average_fitness": 21323.5215993449
+  },
+  "DE_BEST_Qing": {
+    "average_best": [
+      2.326800946404661,
+      0.5069045916270422
+    ],
+    "average_fitness": 13219.37710023267
+  },
+  "DE_BEST_Quartic": {
+    "average_best": [
+      -1.021186149009389,
+      -0.6436828249497518
+    ],
+    "average_fitness": 3976.2875576564916
+  },
+  "DE_BEST_Rastrigin": {
+    "average_best": [
+      0.8163727869712952,
+      -0.17657928763719183
+    ],
+    "average_fitness": 19.809823101745007
+  },
+  "DE_BEST_Rosenbrock": {
+    "average_best": [
+      -1.7475426404669827,
+      21.452256951910407
+    ],
+    "average_fitness": 8196.624441477377
+  },
+  "DE_BEST_Salomon": {
+    "average_best": [
+      -0.4129889646667408,
+      -0.8366959597237681
+    ],
+    "average_fitness": 0.5291142409916917
+  },
+  "DE_BEST_Schwefel": {
+    "average_best": [
+      28.47831501686699,
+      28.233262847026744
+    ],
+    "average_fitness": 731.9077498990326
+  },
+  "DE_BEST_Shubert": {
+    "average_best": [
+      1.3822189407232783,
+      23.62495504770432
+    ],
+    "average_fitness": -12.005743447520969
+  },
+  "DE_BEST_Shubert N. 3": {
+    "average_best": [
+      -6.700959536395401,
+      -11.194518124119195
+    ],
+    "average_fitness": -25.52373739699387
+  },
+  "DE_BEST_Shubert N. 4": {
+    "average_best": [
+      8.624867336729169,
+      5.470059825229165
+    ],
+    "average_fitness": -21.76363429580612
+  },
+  "DE_BEST_Styblinski Tank": {
+    "average_best": [
+      -0.2620987888132371,
+      -0.6602267067266662
+    ],
+    "average_fitness": -20.00489859565007
+  },
+  "DE_BEST_Thevenot": {
+    "average_best": [
+      -7.248362999295305,
+      -7.683838703750494
+    ],
+    "average_fitness": -0.29934911931821684
+  },
+  "DE_BEST_CustomFunction": {
+    "average_best": [
+      -0.6494726439362566,
+      -0.07980277979386206
+    ],
+    "average_fitness": 12.03717831286869
+  },
+  "DE_BEST_CustomFunction2": {
+    "average_best": [
+      -0.8600193520494434,
+      1.171510158702634
+    ],
+    "average_fitness": 34.608203296929645
+  },
+  "DE_BEST_CustomFunction3": {
+    "average_best": [
+      -6.425704616446234,
+      8.7254730349239
+    ],
+    "average_fitness": 1.0003847043490244
+  },
+  "DE_BEST_CustomFunction4": {
+    "average_best": [
+      -41.44217858182764,
+      -65.68086023229255
+    ],
+    "average_fitness": -0.9993567128802033
+  },
+  "DE_BEST_CustomFunction5": {
+    "average_best": [
+      18.656183044359256,
+      7.979885241267937
+    ],
+    "average_fitness": -2.81964617656309
+  },
+  "DE_BEST_CustomFunction7": {
+    "average_best": [
+      -0.7935073345087625,
+      1.9170861121417284
+    ],
+    "average_fitness": 42.763734429727855
+  },
+  "DE_BEST_CustomFunction8": {
+    "average_best": [
+      14.65341162386363,
+      -21.6036029440859
+    ],
+    "average_fitness": 1.0010574187339976
+  },
+  "DE_BEST_CustomFunction9": {
+    "average_best": [
+      -45.285749008654484,
+      -47.24969849886083
+    ],
+    "average_fitness": -0.9996456740584176
+  },
+  "DE_BEST_CustomFunction10": {
+    "average_best": [
+      3.3307159485844298,
+      -1.7260494272699072
+    ],
+    "average_fitness": 1.722683294124916
+  }
+}

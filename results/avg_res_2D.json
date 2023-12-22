@@ -1,0 +1,1127 @@
+[
+  {
+    "FUNCTION_NAME": "Ackley",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -10.019322459356111,
+          9.469510070954424
+        ],
+        "average_fitness": 10.112197741301351
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -4.808967389392876,
+          -2.248511825121206
+        ],
+        "average_fitness": 6.211545506445284
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          4.266690545743702,
+          -3.5000000014681434
+        ],
+        "average_fitness": 0.6666671265801003
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -5.1393241780650304e-05,
+          5.4732161225557905e-05
+        ],
+        "average_fitness": 0.0006740103413162224
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.2735286105848192,
+          -0.3997413329352474
+        ],
+        "average_fitness": 5.840725726489761
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Happy Cat",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          0.6327062104802271,
+          0.32027568342050755
+        ],
+        "average_fitness": 41.13235699081979
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.9999791656126613,
+          -1.000020804041139
+        ],
+        "average_fitness": 1.906059056884975e-08
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -1.0021908180920278,
+          -0.9974257652210947
+        ],
+        "average_fitness": 0.00021505660537637176
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -1.0230734301562254,
+          -0.9450890774434332
+        ],
+        "average_fitness": 0.017624979450109535
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -0.327296318070158,
+          -0.6951176740999876
+        ],
+        "average_fitness": 8.264590503496839
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Michalewicz",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -17.737931085996696,
+          -7.532143537518132
+        ],
+        "average_fitness": -1.403232583920079
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -26.366416015434368,
+          -4.416246891704388
+        ],
+        "average_fitness": -1.7286269998644264
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          57.92003531469977,
+          27.26652140843846
+        ],
+        "average_fitness": -1.9197877336786127
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -6.612132372278286,
+          -8.138561447089824
+        ],
+        "average_fitness": -1.930736070120184
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -12.442830598759276,
+          7.06819954864312
+        ],
+        "average_fitness": -1.8558629774116615
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Periodic",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -6.199501917992571,
+          0.050359322206538576
+        ],
+        "average_fitness": 1.0334560500919696
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -4.803852816595221,
+          -10.661583055178339
+        ],
+        "average_fitness": 1.0061033132232406
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -16.021127253141405,
+          -27.226356050817415
+        ],
+        "average_fitness": 1.0000341577472462
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.21026006892832924,
+          -10.364885537635407
+        ],
+        "average_fitness": 0.9968391431672374
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -8.536982858707056,
+          -10.151185425555687
+        ],
+        "average_fitness": 1.0294622866949887
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Perm d, beta",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          1.3555151218344814,
+          0.3312525361167237
+        ],
+        "average_fitness": 21323.5215993449
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          1.384615384615383,
+          1.5384615384615468
+        ],
+        "average_fitness": 7.056360797201951e-29
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          1.384614936118709,
+          1.5384626324865092
+        ],
+        "average_fitness": 1.2171479163142104e-11
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          1.3679175927753948,
+          1.5559752687753812
+        ],
+        "average_fitness": 0.009570765192166621
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.8233839660436445,
+          1.7190930699703098
+        ],
+        "average_fitness": 844.44576241445
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Qing",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          2.326800946404661,
+          0.5069045916270422
+        ],
+        "average_fitness": 13219.37710023267
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.26666666598802874,
+          0.09467398492477201
+        ],
+        "average_fitness": 3.739285862759127e-05
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          0.26666666649431026,
+          0.09428090425712693
+        ],
+        "average_fitness": 1.4270180195124746e-18
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          0.13332284623871546,
+          7.379729771939125e-07
+        ],
+        "average_fitness": 3.490245226888957e-07
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -0.5865016786328525,
+          -0.24785642212694783
+        ],
+        "average_fitness": 4733.050809024707
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Quartic",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -1.021186149009389,
+          -0.6436828249497518
+        ],
+        "average_fitness": 3976.2875576564916
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          0.0016069257180504337,
+          0.0113377344151156
+        ],
+        "average_fitness": 0.001157671607349282
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          0.01105167433368564,
+          0.020192356622597017
+        ],
+        "average_fitness": 0.0013010677577351944
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.01053311166091822,
+          0.006256169791468428
+        ],
+        "average_fitness": 0.0027999873510906196
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -0.00891815653272503,
+          -0.39057437626258606
+        ],
+        "average_fitness": 1235.0031574375055
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Rastrigin",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          0.8163727869712952,
+          -0.17657928763719183
+        ],
+        "average_fitness": 19.809823101745007
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -1.9302698698690318e-10,
+          0.03316528817980498
+        ],
+        "average_fitness": 0.2321571133217676
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -1.789500137631819e-08,
+          -0.09949583588615181
+        ],
+        "average_fitness": 0.09949590570944337
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          0.03246394098891237,
+          0.034224123360686275
+        ],
+        "average_fitness": 0.07738686340128544
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -0.26799017979731965,
+          0.04825254023019833
+        ],
+        "average_fitness": 6.422679005321666
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Rosenbrock",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -1.7475426404669827,
+          21.452256951910407
+        ],
+        "average_fitness": 8196.624441477377
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          1.0026636940961215,
+          1.0654332131652604
+        ],
+        "average_fitness": 0.06704190907590209
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          1.1150994476653975,
+          2.433181314661829
+        ],
+        "average_fitness": 0.96214734677126
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          0.914501043291679,
+          9.058727468525062
+        ],
+        "average_fitness": 9.790600274080134
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.05714230026782066,
+          25.196612609694945
+        ],
+        "average_fitness": 113.77450963624793
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Salomon",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -0.4129889646667408,
+          -0.8366959597237681
+        ],
+        "average_fitness": 0.5291142409916917
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.04477003241462209,
+          -0.013094722895728713
+        ],
+        "average_fitness": 0.08133702261262798
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          0.010505079913952596,
+          -0.01771807579436115
+        ],
+        "average_fitness": 0.03994996541956496
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.049919246091542836,
+          -0.0874008871883738
+        ],
+        "average_fitness": 0.06448884150820063
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.7164799542724507,
+          -1.4377064265390758
+        ],
+        "average_fitness": 0.46753379834870346
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Schwefel",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          28.47831501686699,
+          28.233262847026744
+        ],
+        "average_fitness": 731.9077498990326
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          4.6207426778848,
+          4.770145790572781
+        ],
+        "average_fitness": 718.5151640302545
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          4.306798979818127e+22,
+          8.544776220323759e+20
+        ],
+        "average_fitness": -4.356642637349493e+22
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          65.54790679297534,
+          65.54787660932409
+        ],
+        "average_fitness": 710.695836122781
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          65.08181899761372,
+          64.9767858702858
+        ],
+        "average_fitness": 711.9056397675871
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Shubert",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          1.3822189407232783,
+          23.62495504770432
+        ],
+        "average_fitness": -12.005743447520969
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          2.8736716915830622,
+          20.690292093543608
+        ],
+        "average_fitness": -14.627073613016721
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -46.39242274183535,
+          -12.203484511071851
+        ],
+        "average_fitness": -18.054700236930575
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          22.306003071480614,
+          20.47032369575072
+        ],
+        "average_fitness": -18.05276423006561
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          9.019313604837969,
+          11.39976129837098
+        ],
+        "average_fitness": -16.73359194810091
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Shubert N. 3",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -6.700959536395401,
+          -11.194518124119195
+        ],
+        "average_fitness": -25.52373739699387
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -19.7547682747281,
+          4.333786471852002
+        ],
+        "average_fitness": -29.605829798656956
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          12.494755778973936,
+          -4.556245810464077
+        ],
+        "average_fitness": -29.673232103682306
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -8.653783947713134,
+          11.453311899108689
+        ],
+        "average_fitness": -29.64826969373306
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          4.970561818300018,
+          11.88368380582048
+        ],
+        "average_fitness": -28.238654577067596
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Shubert N. 4",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          8.624867336729169,
+          5.470059825229165
+        ],
+        "average_fitness": -21.76363429580612
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          6.11918021725277,
+          -16.71254907305717
+        ],
+        "average_fitness": -25.575881166908378
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          15.107698164368095,
+          -25.09236880378423
+        ],
+        "average_fitness": -25.67160315219804
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          8.212063552265878,
+          13.654778825829625
+        ],
+        "average_fitness": -25.69699694385181
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          4.65088819002809,
+          -0.8228065241139504
+        ],
+        "average_fitness": -24.551244572869987
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Styblinski Tank",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -0.2620987888132371,
+          -0.6602267067266662
+        ],
+        "average_fitness": -20.00489859565007
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -2.715189465959944,
+          -2.5268449083406677
+        ],
+        "average_fitness": -76.91865950269408
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -2.903534028955927,
+          -2.7151894689604954
+        ],
+        "average_fitness": -77.86110743925994
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -2.9003794827244262,
+          -2.715173577596543
+        ],
+        "average_fitness": -77.85602837921815
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -1.4497845313842397,
+          -2.3210742802373097
+        ],
+        "average_fitness": -46.37998083216941
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "Thevenot",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -7.248362999295305,
+          -7.683838703750494
+        ],
+        "average_fitness": -0.29934911931821684
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -5.550030233825059,
+          -8.685874478493014
+        ],
+        "average_fitness": -1.7303407758476723
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -0.3141685656453317,
+          2.3040873136024493
+        ],
+        "average_fitness": -1.9999786427615298
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.7363892037555896,
+          -0.016251874664700433
+        ],
+        "average_fitness": -1.9729422754179273
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -1.7791193324291816,
+          -2.4480517352719766
+        ],
+        "average_fitness": -1.1270005367023441
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -0.6494726439362566,
+          -0.07980277979386206
+        ],
+        "average_fitness": 12.03717831286869
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.05243673839052671,
+          -0.047307130114972534
+        ],
+        "average_fitness": 0.050268429678353384
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          0.03325154902231782,
+          0.033250403140266005
+        ],
+        "average_fitness": 0.03324911074628082
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.003641875636763566,
+          0.0037983080293817998
+        ],
+        "average_fitness": 0.0039876677094871004
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.5777802679497458,
+          -0.15486140117015426
+        ],
+        "average_fitness": 14.497559675793868
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction2",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -0.8600193520494434,
+          1.171510158702634
+        ],
+        "average_fitness": 34.608203296929645
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.7390851342846971,
+          -0.7390851338723181
+        ],
+        "average_fitness": -0.8009772242267583
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -0.7390851307794807,
+          -0.7390851345842624
+        ],
+        "average_fitness": -0.8009772242267582
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.7390144443478166,
+          -0.7391319691957966
+        ],
+        "average_fitness": -0.8009770029578168
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -0.22119988275098526,
+          -0.962101595023451
+        ],
+        "average_fitness": 2.69557312498326
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction3",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -6.425704616446234,
+          8.7254730349239
+        ],
+        "average_fitness": 1.0003847043490244
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.4645359364332004,
+          8.33097421598106
+        ],
+        "average_fitness": 1.0000350964782243
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          10.641357464385935,
+          -34.20802403138485
+        ],
+        "average_fitness": 1.0000000000008111
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -13.08404802108311,
+          23.650585753722293
+        ],
+        "average_fitness": 1.0000043394715208
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -8.968543821291428,
+          -12.231456464540056
+        ],
+        "average_fitness": 1.0000009893059212
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction4",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -41.44217858182764,
+          -65.68086023229255
+        ],
+        "average_fitness": -0.9993567128802033
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -60.791066042029705,
+          -63.61985692265538
+        ],
+        "average_fitness": -0.9998813351388516
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -103.00660242676437,
+          -123.29339852104196
+        ],
+        "average_fitness": -0.9999999970510315
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -51.383215242604955,
+          -53.91672889031763
+        ],
+        "average_fitness": -0.9999940030371717
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -52.19178538092399,
+          -49.330389959439074
+        ],
+        "average_fitness": -0.9999408122400586
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction5",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          18.656183044359256,
+          7.979885241267937
+        ],
+        "average_fitness": -2.81964617656309
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          4.184905177697866,
+          -1.5523820554436838
+        ],
+        "average_fitness": -2.90709955589366
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -18.296155485975394,
+          -16.671463215261657
+        ],
+        "average_fitness": -2.9933671600841243
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          16.004979277298034,
+          9.960324346572117
+        ],
+        "average_fitness": -2.985801835063187
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          17.676544831805767,
+          -1.8087372548558809
+        ],
+        "average_fitness": -2.9573508652193943
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction7",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -0.7935073345087625,
+          1.9170861121417284
+        ],
+        "average_fitness": 42.763734429727855
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          4.736951571734001e-16,
+          0.0
+        ],
+        "average_fitness": 0.0
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          7.853823389068768e-11,
+          -7.186933300488842e-10
+        ],
+        "average_fitness": 1.0597766768367913e-19
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          3.131715975173873e-05,
+          1.4072580694658969e-05
+        ],
+        "average_fitness": 3.5771110898651815e-08
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.849859607157464,
+          0.9455768656210316
+        ],
+        "average_fitness": 12.22849210365842
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction8",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          14.65341162386363,
+          -21.6036029440859
+        ],
+        "average_fitness": 1.0010574187339976
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -9.842571461046024,
+          -8.674307071697026
+        ],
+        "average_fitness": 1.0000528193374194
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -13.763609902639477,
+          43.14694323482594
+        ],
+        "average_fitness": 1.0000000000000009
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -10.148494769085156,
+          -13.901528456080822
+        ],
+        "average_fitness": 1.0000020370388538
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -5.867172183033256,
+          0.5505648242274946
+        ],
+        "average_fitness": 1.000002771253133
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction9",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          -45.285749008654484,
+          -47.24969849886083
+        ],
+        "average_fitness": -0.9996456740584176
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -92.66062077535304,
+          -93.56160038910122
+        ],
+        "average_fitness": -0.9999858436540581
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -147.32065268626732,
+          -139.8571444594437
+        ],
+        "average_fitness": -0.9999999957973568
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -49.2943151075971,
+          -44.86112676279851
+        ],
+        "average_fitness": -0.9999807103438094
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          -55.74148620671913,
+          -49.21416591864501
+        ],
+        "average_fitness": -0.9999804279351637
+      }
+    ]
+  },
+  {
+    "FUNCTION_NAME": "CustomFunction10",
+    "algorithms": [
+      {
+        "algorithm_name": "DE-BEST",
+        "average_best": [
+          3.3307159485844298,
+          -1.7260494272699072
+        ],
+        "average_fitness": 1.722683294124916
+      },
+      {
+        "algorithm_name": "DE-RANDOM",
+        "average_best": [
+          -0.1964482530645905,
+          -0.2217385613223693
+        ],
+        "average_fitness": -0.31775350036959443
+      },
+      {
+        "algorithm_name": "PSO",
+        "average_best": [
+          -0.14022157370057736,
+          -0.28058546046721866
+        ],
+        "average_fitness": -0.3205107502312068
+      },
+      {
+        "algorithm_name": "SOMA-AT1",
+        "average_best": [
+          -0.23909190590766458,
+          -0.11755907202188155
+        ],
+        "average_fitness": -0.2996623397596404
+      },
+      {
+        "algorithm_name": "SOMA-ATA",
+        "average_best": [
+          0.07850594211697658,
+          0.2927904929512726
+        ],
+        "average_fitness": 1.020105661645402
+      }
+    ]
+  }
+]

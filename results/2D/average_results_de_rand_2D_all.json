@@ -1,0 +1,177 @@
+{
+  "DE_RANDOM_Ackley": {
+    "average_best": [
+      -4.808967389392876,
+      -2.248511825121206
+    ],
+    "average_fitness": 6.211545506445284
+  },
+  "DE_RANDOM_Happy Cat": {
+    "average_best": [
+      -0.9999791656126613,
+      -1.000020804041139
+    ],
+    "average_fitness": 1.906059056884975e-08
+  },
+  "DE_RANDOM_Michalewicz": {
+    "average_best": [
+      -26.366416015434368,
+      -4.416246891704388
+    ],
+    "average_fitness": -1.7286269998644264
+  },
+  "DE_RANDOM_Periodic": {
+    "average_best": [
+      -4.803852816595221,
+      -10.661583055178339
+    ],
+    "average_fitness": 1.0061033132232406
+  },
+  "DE_RANDOM_Perm d, beta": {
+    "average_best": [
+      1.384615384615383,
+      1.5384615384615468
+    ],
+    "average_fitness": 7.056360797201951e-29
+  },
+  "DE_RANDOM_Qing": {
+    "average_best": [
+      -0.26666666598802874,
+      0.09467398492477201
+    ],
+    "average_fitness": 3.739285862759127e-05
+  },
+  "DE_RANDOM_Quartic": {
+    "average_best": [
+      0.0016069257180504337,
+      0.0113377344151156
+    ],
+    "average_fitness": 0.001157671607349282
+  },
+  "DE_RANDOM_Rastrigin": {
+    "average_best": [
+      -1.9302698698690318e-10,
+      0.03316528817980498
+    ],
+    "average_fitness": 0.2321571133217676
+  },
+  "DE_RANDOM_Rosenbrock": {
+    "average_best": [
+      1.0026636940961215,
+      1.0654332131652604
+    ],
+    "average_fitness": 0.06704190907590209
+  },
+  "DE_RANDOM_Salomon": {
+    "average_best": [
+      -0.04477003241462209,
+      -0.013094722895728713
+    ],
+    "average_fitness": 0.08133702261262798
+  },
+  "DE_RANDOM_Schwefel": {
+    "average_best": [
+      4.6207426778848,
+      4.770145790572781
+    ],
+    "average_fitness": 718.5151640302545
+  },
+  "DE_RANDOM_Shubert": {
+    "average_best": [
+      2.8736716915830622,
+      20.690292093543608
+    ],
+    "average_fitness": -14.627073613016721
+  },
+  "DE_RANDOM_Shubert N. 3": {
+    "average_best": [
+      -19.7547682747281,
+      4.333786471852002
+    ],
+    "average_fitness": -29.605829798656956
+  },
+  "DE_RANDOM_Shubert N. 4": {
+    "average_best": [
+      6.11918021725277,
+      -16.71254907305717
+    ],
+    "average_fitness": -25.575881166908378
+  },
+  "DE_RANDOM_Styblinski Tank": {
+    "average_best": [
+      -2.715189465959944,
+      -2.5268449083406677
+    ],
+    "average_fitness": -76.91865950269408
+  },
+  "DE_RANDOM_Thevenot": {
+    "average_best": [
+      -5.550030233825059,
+      -8.685874478493014
+    ],
+    "average_fitness": -1.7303407758476723
+  },
+  "DE_RANDOM_CustomFunction": {
+    "average_best": [
+      -0.05243673839052671,
+      -0.047307130114972534
+    ],
+    "average_fitness": 0.050268429678353384
+  },
+  "DE_RANDOM_CustomFunction2": {
+    "average_best": [
+      -0.7390851342846971,
+      -0.7390851338723181
+    ],
+    "average_fitness": -0.8009772242267583
+  },
+  "DE_RANDOM_CustomFunction3": {
+    "average_best": [
+      -0.4645359364332004,
+      8.33097421598106
+    ],
+    "average_fitness": 1.0000350964782243
+  },
+  "DE_RANDOM_CustomFunction4": {
+    "average_best": [
+      -60.791066042029705,
+      -63.61985692265538
+    ],
+    "average_fitness": -0.9998813351388516
+  },
+  "DE_RANDOM_CustomFunction5": {
+    "average_best": [
+      4.184905177697866,
+      -1.5523820554436838
+    ],
+    "average_fitness": -2.90709955589366
+  },
+  "DE_RANDOM_CustomFunction7": {
+    "average_best": [
+      4.736951571734001e-16,
+      0.0
+    ],
+    "average_fitness": 0.0
+  },
+  "DE_RANDOM_CustomFunction8": {
+    "average_best": [
+      -9.842571461046024,
+      -8.674307071697026
+    ],
+    "average_fitness": 1.0000528193374194
+  },
+  "DE_RANDOM_CustomFunction9": {
+    "average_best": [
+      -92.66062077535304,
+      -93.56160038910122
+    ],
+    "average_fitness": -0.9999858436540581
+  },
+  "DE_RANDOM_CustomFunction10": {
+    "average_best": [
+      -0.1964482530645905,
+      -0.2217385613223693
+    ],
+    "average_fitness": -0.31775350036959443
+  }
+}
