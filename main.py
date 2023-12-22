@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import json
+import os
 
 from algorithms.de import de_best_1_bin, de_rand_1_bin
 from algorithms.pso import pso
@@ -18,8 +19,7 @@ def plot_function_2d_3d(func, input_domain, n_space=100):
     bench.plot_2d(func, n_space=n_space, ax=None)
     bench.plot_3d(func, n_space=n_space, ax=None)
 
-    latex = func.latex_formula
-    latex_img = bench.latex_img(latex)
+    latex_img = bench.latex_img(func.latex_formula)
     plt.imshow(latex_img)
     plt.show()
 
@@ -39,6 +39,33 @@ def average_results(algorithm, func, bounds, runs=REPETITIONS):
 def save_to_json(data, filename):
     with open(filename, 'w') as json_file:
         json.dump(data, json_file, indent=4)
+
+
+def save_images(func, input_domain, output_dir='images', n_space=100):
+    func.input_domain = input_domain
+
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Save 2D plot
+    plot_2d_path = os.path.join(output_dir, f'{func.name}-2D.jpg')
+    fig_2d = bench.plot_2d(func, n_space=n_space, ax=None, show=False)
+    plt.savefig(plot_2d_path, dpi=300)
+    plt.close(fig_2d)
+
+    # Save 3D plot
+    plot_3d_path = os.path.join(output_dir, f'{func.name}-3D.jpg')
+    fig_3d = bench.plot_3d(func, n_space=n_space, ax=None, show=False)
+    plt.savefig(plot_3d_path, dpi=300)
+    plt.close(fig_3d)
+
+    # Save Latex image
+    latex_path = os.path.join(output_dir, f'{func.name}-latex.jpg')
+    latex_img = bench.latex_img(func.latex_formula)
+    plt.axis('off')  # Turn off axis for Latex image
+    plt.imshow(latex_img)
+    plt.savefig(latex_path, dpi=300)
+    plt.close()
 
 
 if __name__ == '__main__':
@@ -88,34 +115,31 @@ if __name__ == '__main__':
         bench.function.CustomFunction10(DIMENSIONS),
     ]
 
-    print('TOTAL FUNCTIONS:')
-    print(len(bench_functions))
-
     bounds = [(-100, 100) for _ in range(DIMENSIONS)]
 
     for func in tqdm(bench_functions, desc="Progress"):
-        print()
+        save_images(func, INPUT_DOMAIN)
 
-        # print('DE_BEST: ' + func.name)
-        # average_result = average_results(de_best_1_bin, func, bounds)
-        # results_dict[f'DE_BEST_{func.name}'] = {
-        #     'average_best': average_result[0].tolist(),
-        #     'average_fitness': float(average_result[1])
-        # }
+        print('DE_BEST: ' + func.name)
+        average_result = average_results(de_best_1_bin, func, bounds)
+        results_dict[f'DE_BEST_{func.name}'] = {
+            'average_best': average_result[0].tolist(),
+            'average_fitness': float(average_result[1])
+        }
 
-        # print('DE_RANDOM: ' + func.name)
-        # average_result = average_results(de_rand_1_bin, func, bounds)
-        # results_dict[f'DE_RANDOM_{func.name}'] = {
-        #     'average_best': average_result[0].tolist(),
-        #     'average_fitness': float(average_result[1])
-        # }
+        print('DE_RANDOM: ' + func.name)
+        average_result = average_results(de_rand_1_bin, func, bounds)
+        results_dict[f'DE_RANDOM_{func.name}'] = {
+            'average_best': average_result[0].tolist(),
+            'average_fitness': float(average_result[1])
+        }
 
-        # print('PSO: ' + func.name)
-        # pso_avg_res = average_results(pso, func, bounds)
-        # results_dict[f'PSO_{func.name}'] = {
-        #     'average_best': pso_avg_res[0].tolist(),
-        #     'average_fitness': float(pso_avg_res[1])
-        # }
+        print('PSO: ' + func.name)
+        pso_avg_res = average_results(pso, func, bounds)
+        results_dict[f'PSO_{func.name}'] = {
+            'average_best': pso_avg_res[0].tolist(),
+            'average_fitness': float(pso_avg_res[1])
+        }
 
         print('SOMA AT1: ' + func.name)
         soma_at1_avg_res = average_results(soma_all_to_one, func, bounds)
@@ -124,13 +148,11 @@ if __name__ == '__main__':
             'average_fitness': float(soma_at1_avg_res[1])
         }
 
-        # print('SOMA ATA: ' + func.name)
-        # soma_ata_avg_res = average_results(soma_all_to_all, func, bounds)
-        # results_dict[f'SOMA_ATA_{func.name}'] = {
-        #     'average_best': soma_ata_avg_res[0].tolist(),
-        #     'average_fitness': float(soma_ata_avg_res[1])
-        # }
-
-        # plot_function_2d_3d(func, INPUT_DOMAIN)
+        print('SOMA ATA: ' + func.name)
+        soma_ata_avg_res = average_results(soma_all_to_all, func, bounds)
+        results_dict[f'SOMA_ATA_{func.name}'] = {
+            'average_best': soma_ata_avg_res[0].tolist(),
+            'average_fitness': float(soma_ata_avg_res[1])
+        }
 
         save_to_json(results_dict, OUTPUT_FILE)
