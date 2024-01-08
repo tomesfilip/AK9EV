@@ -11,11 +11,9 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
     min_b, max_b = np.asarray(bounds).T
     diff = np.fabs(min_b - max_b)
 
-    # Adjust population size based on dimensions
     population_size = POPULATION_SIZE[f'{dimensions}D']
     iterations = int(FUNCTION_EVALUATIONS(dimensions) / population_size)
 
-    # Initialize population
     population = np.random.rand(population_size, dimensions)
     pop_denorm = min_b + population * diff
     fitness = np.asarray([fobj(ind) for ind in pop_denorm])
@@ -35,7 +33,7 @@ def de_best_1_bin(fobj, bounds, F=DE_BEST_1_BIN['F'], cr=DE_BEST_1_BIN['CR'], di
 
             trial = np.where(cross_points, mutant, best_vector)
             trial_denorm = min_b + trial * diff
-            # trial_denorm = check_bounds(trial_denorm, bounds) # TODO: is check bounds function needed?
+            trial_denorm = check_bounds(trial_denorm, min_b, max_b)
 
             f = fobj(trial_denorm)
 
@@ -57,11 +55,9 @@ def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], di
     min_b, max_b = np.asarray(bounds).T
     diff = np.fabs(min_b - max_b)
 
-    # Adjust population size based on dimensions
     population_size = POPULATION_SIZE[f'{dimensions}D']
     iterations = int(FUNCTION_EVALUATIONS(dimensions) / population_size)
 
-    # Initialize population
     population = np.random.rand(population_size, dimensions)
     pop_denorm = min_b + population * diff
     fitness = np.asarray([fobj(ind) for ind in pop_denorm])
@@ -80,7 +76,7 @@ def de_rand_1_bin(fobj, bounds, F=DE_RAND_1_BIN['F'], cr=DE_RAND_1_BIN['CR'], di
 
             trial = np.where(cross_points, mutant, population[j])
             trial_denorm = min_b + trial * diff
-            # trial_denorm = check_bounds(trial_denorm, bounds) # TODO: is check bounds function needed?
+            trial_denorm = check_bounds(trial_denorm, min_b, max_b)
 
             f = fobj(trial_denorm)
 
